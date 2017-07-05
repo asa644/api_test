@@ -12,6 +12,7 @@ DeviseTokenAuth.setup do |config|
   # Sets the max number of concurrent devices per user, which is 10 by default.
   # After this limit is reached, the oldest tokens will be removed.
   # config.max_number_of_devices = 10
+  config.secret_key = '3e8d86622557d8cb796a638fbdc0ee0e209ddf676cb7dd3d4fc973279d418282b2cab6f0beb74c35661e28c46ecb085cbb7472ce62565b0796a01541b419fab8'
 
   # Sometimes it's necessary to make several requests to the API at the same
   # time. In this case, each request in the batch will need to share the same
