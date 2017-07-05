@@ -7,6 +7,8 @@ gem 'pg'
 gem 'puma'
 gem 'rails', '5.1.1'
 gem 'redis'
+gem 'devise_token_auth'
+gem 'omniauth-facebook'
 
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass'
