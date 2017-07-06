@@ -5,7 +5,6 @@ DeviseTokenAuth.setup do |config|
   # each request.
   # config.change_headers_on_each_request = true
   # Devise.setup.secret_key = ENV[ 'b917a283e6d51751b19cf209968e703cb415380487fc906ffc19be2fcffb2c721fc3fedc507aa2511010d82ea83c2bae0a64cc0bce0df5202f8529b757756493' ]
-  config.secret_key = Api_Test::Application.config.secret_key_base || ENV['2174a2f16c4e3a1b64cf6d6de58b2ae904805e19657c5774e771f147b07e911013a49fe681cf74b0477470f92e2280e420c1f6c2d61aac1d671401fe10022ef0']
 
   # By default, users will need to re-authenticate after 2 weeks. This setting
   # determines how long tokens will remain valid after they are issued.
